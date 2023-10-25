@@ -1,0 +1,65 @@
+body{
+  background: linear-gradient(to right,rgb(7, 86, 133),rgb(16, 193, 224));
+}
+
+.container{
+  display: grid;
+  grid-template-columns: repeat(3,300px);
+  place-content: center;
+  padding:70px;
+  gap:10rem;
+}
+
+.card{
+  width:300px;
+  height:555px;
+  border-radius:15px;
+  background-color: azure;
+}
+
+.header{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#scheme{
+  opacity: 60%;
+}
+
+.cardBody{
+   text-align: left;
+   margin-left: 0px;
+   padding-left: 0px;
+   font-weight: bolder;
+}
+
+ul{
+  list-style: none;
+}
+
+ul li{
+  margin-bottom: 20px;
+}
+
+button{
+  width:230px;
+  height:30px;
+  border:none;
+  border-radius:15px;
+  margin-top: 8px;
+  color: azure;
+  background: linear-gradient(to right,rgb(7, 86, 133),rgb(16, 193, 224));
+}
+
+.footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+hr{
+  color: black;
+}
